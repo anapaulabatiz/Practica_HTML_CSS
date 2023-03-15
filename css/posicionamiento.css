@@ -1,0 +1,21 @@
+.box{
+    display: inline-block; /*nos pone bloques en linea*/ /*Controla la estructura de los elementos*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+}
+
+#two { /*id se llama con #*/
+    position: relative; /*se va a su etiqueta mas cercana*/ /*Tiene otras propiedades. relative, static, fixed, sticky*/
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+
+.texto1{ /*class se llama con .*/
+    width: 600px;
+    height: 400px;
+    overflow: visible; /*Es para hacer scroll, tambien tiene una propiedad scroll, visible, auto, hidden*/
+    padding-left: 150px;
+}

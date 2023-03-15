@@ -1,0 +1,40 @@
+* {font-family: 'Franklin Gothic Medium';} /*el asterisco es un selector universal, es decir, tomara todos los elementos de la pagima*/
+h2 {color:hotpink; font-family: 'Times New Roman';}
+
+.card{background-color: rgb(119, 176, 230);} /*Un selector de tipo clase, como card, se manda a llamar con un . */
+
+/*Se va a modificar la parte de section*/
+
+section {
+   width: 70%;
+   background-color: peachpuff;
+   float: left; /*nos indica la posicion del elemento*/
+   margin: 10px;
+}
+
+/*Se va a modificar la parte de article*/
+
+article{
+    margin: 0.5em 3em; /*orden para aplicar margenes: top, right, botton, left*/
+    /*Si solo pones dos: el primero es top y bottom y el segundo right y left*/
+    /*aplica lo mismo para border y padding*/
+    padding: 0.5em 2em;
+    background-color: mediumseagreen;
+    border: 10px solid black;
+}
+
+aside{
+    width: 25%;
+    float: left;
+    background-color: darkred;
+}
+
+footer{
+    background-color: teal;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both; /*esto es para garantizar que el footer se quede abajo*/
+}
